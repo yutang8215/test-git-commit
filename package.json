@@ -1,0 +1,30 @@
+{
+  "name": "test-git-commit",
+  "version": "1.0.0",
+  "description": "test-git-commit",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.1.0",
+    "cz-customizable": "^6.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yutang8215/test-git-commit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yutang8215/test-git-commit/issues"
+  },
+  "homepage": "https://github.com/yutang8215/test-git-commit#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  }
+}
